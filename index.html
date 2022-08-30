@@ -4,12 +4,265 @@
     <meta charset="UTF-8" />
     <title> EasyGo Technical Assessment </title>
     <link rel="icon" type="image/webp" href="/logo.webp" />
+    <link rel="stylesheet" href="./assets/styles/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div id="app">
-      
+
+      <!-- Navigation Bar -->
+      <div id="navbar-wrapper">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+              <img src="./assets/images/small_long_logo.png" alt="EasyGo Company Logo" width="100" height="100" style="max-height: inherit;" />
+            </a>
+            <a role="button" id="customized-menu" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+            <a href="/" id="admin-block" class="navbar-burger">
+              <img src="./assets/images/account_image.png" alt="Admin Account" width="40" height="40">
+            </a>
+          </div>
+        
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item"> Home </a>
+              <a class="navbar-item"> Trips </a>
+              <a class="navbar-item"> Explore </a>
+              <a class="navbar-item"> Marketplace </a>
+              <a class="navbar-item"> Blog </a>
+            </div>
+        
+            <div class="navbar-end">
+              <a href="/" id="admin-block">
+                <img src="./assets/images/account_image.png" alt="Admin Account" width="40" height="40">
+              </a>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- About Us Section -->
+      <section class="about-us">
+        <div class="about-info">
+          <section id="content">
+            <h1> About Us </h1>
+            <div id="links">
+              <a> Home </a>
+              <img src="./assets/images/arrow.png" alt="Arrow" />
+              <a> About Us </a>
+            </div>
+          </section>
+        </div>
+        <img src="./assets/images/about_us.jpg" alt="About EasyGo" />
+      </section>
+      <section class="company-info">
+        <h2 id="mobile" class="is-size-3 is-uppercase has-text-weight-bold my-3"> 
+          About Us 
+        </h2>
+        <img src="./assets/images/company_info.jpg" alt="Company Description" />
+        <div class="info-box">
+          <h2 id="desktop" class="is-size-3 is-uppercase has-text-weight-bold my-3"> 
+            About Us 
+          </h2>
+          <h2>
+            Trips And Tours Are An Expression Of Identity.
+          </h2>
+          <p class="has-text-dark has-text-weight-light my-3">
+            Every trip to a new or familiar locations are about more
+            than just sightseeing. At easyGo, we believe that each trip
+            is a way for you to express your African identity.
+            Where you go cannot separate you from who you are
+          </p>
+          <button class="button my-5"> Book a Trip </button>
+        </div>
+      </section>
+
+      <!-- Why easyGo Section -->
+      <section class="why-easygo">
+        <section class="company-info reason">
+          <div class="info-box">
+            <p class="question is-size-5 my-3 is-uppercase has-text-left">
+              why work with easygo?
+            </p>
+            <h2 class="has-text-left has-text-weight-bold">
+              We Want To See your Business Grow.
+            </h2>
+          </div>
+          <div class="info-box" style="margin: 10px auto;">
+            <p class="has-text-dark has-text-weight-light my-3">
+              We know that it's a lot of work to run a tourism focused company.
+              That's why easyGo exists; to streamline your operations. We provide a 
+              suite of services that make it easy to collect payment, communicate 
+              with your customers and track bookings.
+            </p>
+            <p class="has-text-dark has-text-weight-light my-3">
+              The tasks of a modern tourism focused company are more than just planning
+              trips. This can take your focus away from the core of your business; creating
+              memorable experiences. That is why we provide Value Added Services, so that you 
+              can stay true to your company vision.
+            </p>
+            <button class="button my-5"> Learn More </button>
+          </div>
+        </section>
+      </section>
+
+      <!-- Milestones Section -->
+      <section id="mile-stones">
+        <h2 class="is-size-3 has-text-weight-bold my-3"> Milestones </h2>
+        <div>
+          <img src="./assets/images/g1.jpg" alt="Milestones section">
+          <div class="info-box">
+            <p class="question is-size-5 my-3 has-text-left">
+              Ashesi university
+            </p>
+            <h3 class="has-text-weight-bold is-size-4"> Community Entrepreneurship Program </h3>
+            <p class="has-text-dark has-text-weight-light my-3 has-text-left">
+              We recieved funding and mentorship from Ashesi's University Community 
+              Entrepreneurship Program in May of 2023.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Banner 3 Section -->
+      <div id="banner-3">
+        <span class="about-info"></span>
+        <img src="/assets/images/banner3.jpg" alt="Banner 3 section" />
+      </div>
+
+      <!-- Meet Our Team Section -->
+      <div class="meet-team">
+        <h2 class="is-size-3 has-text-weight-bold my-3"> Meet Our Team </h2>
+        <section class="team-members">
+          <div class="member-box">
+            <span class="about-info">
+              <section class="member-info">
+                <h4 class="has-text-weight-bold"> Kweku Acquaye </h4>
+                <p> Founder, Development Lead </p>
+              </section>
+            </span>
+            <img src="/assets/images/ceo1.jpg" alt="CEO" />
+          </div>
+          <div class="member-box">
+            <span class="about-info">
+              <section class="member-info">
+                <h4 class="has-text-weight-bold"> Edna Tetteh </h4>
+                <p> Marketing, Public Relations and Communications </p>
+              </section>
+            </span>
+            <img src="/assets/images/ceo2.jpg" alt="Marketing" />
+          </div>
+        </section>
+      </div>
+
+      <!-- Get In Touch Section -->
+      <section class="team-members contact-info">
+        <div class="in-touch">
+          <h2 class="is-size-3 has-text-weight-bold my-3"> 
+            Get in Touch 
+          </h2>
+          <p class="has-text-dark has-text-weight-light my-3">
+            Hi there. We would love to hear your thoughts. You can reach 
+            us using the contact informationbelow or send us a message with 
+            the form on the left. It could be a bug you found, an issue with 
+            our services, or opinions about improvements we can make.
+          </p>
+          <h4 class="has-text-weight-bold mt-4"> Email: </h4>
+          <p class="has-text-dark has-text-weight-light my-1"> main.easygo@gmail.com </p>
+          <h4 class="has-text-weight-bold mt-4"> Contact: </h4>
+          <p class="has-text-dark has-text-weight-light my-1"> +233-50-689-9883 </p>
+        </div>
+        <div class="in-touch">
+          <div class="field">
+            <label for="name" class="label"> Name </label>
+            <div class="control">
+              <input id="name" type="text" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="email" class="label"> Email </label>
+            <div class="control">
+              <input id="email" type="email" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="subject" class="label"> Subject </label>
+            <div class="control">
+              <input id="subject" type="text" class="input" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message" class="label"> Your Message </label>
+            <div class="control">
+              <textarea id="message" class="textarea"></textarea>
+            </div>
+          </div>
+          <button class="button my-5"> Send Message </button>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="footer py-4">
+        <div class="footer-flexbox">
+          <div class="links">
+            <h4 class="is-size-4"> Trip Goers </h4>
+            <ul>
+              <li> Home </li>
+              <li> Frequently Asked Questions </li>
+              <li> Report A Problem </li>
+            </ul>
+          </div>
+          <div class="links">
+            <h4 class="is-size-4"> Trip Curators </h4>
+            <ul>
+              <li> Become A Curator </li>
+              <li> Frequently Asked Questions </li>
+              <li> Value Added Services </li>
+              <li> Terms and Conditions </li>
+            </ul>
+          </div>
+          <div class="links">
+            <h4 class="is-size-4"> About Us </h4>
+            <ul>
+              <li> Terms and Conditions </li>
+              <li> Privacy Policy </li>
+              <li> Meet the Team </li>
+              <li> Careers </li>
+            </ul>
+          </div>
+          <div class="links">
+            <h4 class="is-size-4"> Newsletter </h4>
+            <div class="control has-icons-right my-4">
+              <input id="border" type="email" class="input is-medium" placeholder="Type your email..." />
+              <span class="icon is-right">
+                <button id="subscribe" class="button"> Subscribe </button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="content has-text-left border-top">
+          <p>&copy; Website Adapted from 2020 Traversal. All Rights Reserved. Design by <strong> W3Layouts </strong> </p>
+          <span class="socials">
+            <a href="https://www.twitter.com/easygo_gh" target="_blank">
+              <img src="/assets/images/social_t.png" alt="Twitter page" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="/assets/images/social_ig.png" alt="Instagram page" />
+            </a>
+          </span>
+        </div>
+      </footer>
+
+     
     </div>
     <script type="module" src="/main.js"></script>
   </body>
