@@ -1,0 +1,282 @@
+:root {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+
+
+
+/*==========  ID Rules ==========*/
+#admin {
+    height: fit-content;
+}
+
+#admin-logo {
+    font-weight: 600;
+    color: #fff !important;
+}
+
+#admin-burger {
+    border-radius: 5px;
+    background-color: #000;
+}
+
+#admin-burger span {
+    height: 2px;
+    background-color: #fff;
+}
+
+#search-bar {
+    width: 100%;
+    margin-top: 20px !important;
+}
+
+#search-bar input, #search-bar input::placeholder {
+    opacity: 1;
+    color: #fff !important;
+    border-radius: 20px;
+    background-color: transparent !important;
+}
+
+#accra {
+    width: 100.5%;
+    color: #000;
+    height: fit-content;
+    position: relative;
+    bottom:-1px;
+    left: -1px;
+    right: -1px;
+    background-color: #fff;
+}
+
+
+
+
+
+/*==========  Class Rules ==========*/
+.color {
+    color: #fff;
+    background-color: #1abc9c !important;
+}
+.features-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.admin-background {
+    background-color: #1abc9c !important;
+}
+
+.navbar-end {
+    align-items: center !important;
+}
+
+.admin-block img {
+    border-radius: 50px;
+}
+
+.statistics {
+    width: 90%;
+    height: 100%;
+    margin: 30px auto;
+}
+
+.feature {
+    width: 100%;
+    height: 100%;
+    margin: 5px auto;
+    background-color: #fff;
+    box-shadow: 0px 3px 15px 3px rgb(0 0 0 / 10%);
+}
+
+.feature section {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+
+.feature span {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    padding: 15px;
+}
+
+.feature div {
+    margin-left: 20px;
+}
+
+.feature h3 {
+    color: #000;
+}
+
+.feature p {
+    font-weight: 500;
+}
+
+.dates, .bookings, .locations {
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+}
+
+.dates, .bookings {
+    box-shadow: 0px 3px 15px 3px rgb(0 0 0 / 10%);
+}
+
+.opposites {
+    display: flex;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.border-bottom {
+    color: #808080;
+    border-bottom: 0.3px solid #808080;
+}
+
+
+.month {
+    padding: 20px 25px;
+    width: 100%;
+    background: #1abc9c;
+    text-align: center;
+}
+  
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+  
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+  
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+  
+.weekdays, .days {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #fff;
+}
+  
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    font-weight: bolder;
+    color: #1abc9c;
+    text-align: center;
+}
+  
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+  
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+
+
+/*==========  Element Rules  ==========*/
+body {
+    background-color: #F2F3F8;
+}
+
+table, textarea {
+    width: 100%;
+}
+
+/*==========  Animations  ==========*/
+
+
+
+
+
+
+/*==========  Media Queries ==========*/
+@media screen and (min-width: 1024px) {
+    #search-bar input {
+        width: 300px;
+        margin: 0px 15px;
+    }
+
+    #navbar {
+        width: 90% !important;
+    }
+
+    .features-section {
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+
+    .feature {
+        width: 23%;
+        margin: 0px auto;
+    }
+
+    .dates {
+        width: 30%;
+    }
+
+    .bookings {
+        width: 60%;
+    }
+
+    .locations {
+        width: 30%;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }

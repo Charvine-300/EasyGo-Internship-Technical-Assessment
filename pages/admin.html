@@ -1,0 +1,273 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Admin Dashboard </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/webp" href="/logo.webp" />
+    <link rel="stylesheet" href="/assets/styles/admin.css" />
+    <link rel="stylesheet" href="/assets/styles/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+<body>
+  <div id="admin">
+
+    <!-- Admin Navigation Bar -->
+    <div class="navbar-wrapper admin-background">
+      <nav id="navbar" class="navbar admin-background" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand" style="flex-wrap: wrap;">
+          <a class="navbar-item" href="/index.html">
+            <h1 id="admin-logo" class="is-size-3"> easyGo </h1>
+          </a>        
+          <a role="button" id="admin-burger" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          <div id="search-bar" class="field navbar-burger">
+            <div class="control">
+              <input id="name" type="text" class="input" placeholder="Search..." />
+            </div>
+          </div>
+        </div>
+        
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <div id="search-bar" class="field">
+              <div class="control">
+                <input id="name" type="text" class="input" placeholder="Search..." />
+              </div>
+            </div>
+            <a href="./pages/admin.html" class="admin-block">
+              <img src="../assets/images/account_image.png" alt="Admin Account" width="50" height="50">
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+      <h4 class="has-text-weight-bold is-size-5 mt-6 mb-3"> All Time Statistics </h4>
+      <div class="features-section">
+        <div class="feature">
+          <section>
+            <span style="background-color: rgb(58, 58, 198);">
+              <img src="/assets/images/feature_chat.png" alt="Chat Feature Section" />
+            </span>
+            <div>
+              <h3 class="has-text-weight-bold"> 4 </h3>
+              <p> Published Trips </p>
+            </div>
+          </section>
+        </div>
+        <div class="feature">
+          <section>
+            <span style="background-color: rgb(182, 11, 11);">
+              <img src="/assets/images/feature_customer.png" alt="Customer Section" />
+            </span>
+            <div>
+              <h3 class="has-text-weight-bold"> 1 </h3>
+              <p> Trip Bookings </p>
+            </div>
+          </section>
+        </div>
+        <div class="feature">
+          <section>
+            <span style="background-color: rgb(168, 40, 168);">
+              <img src="/assets/images/feature_thumb.png" alt="Review Section" />
+            </span>
+            <div>
+              <h3 class="has-text-weight-bold"> GHC 0 </h3>
+              <p> Withdrawal Balance </p>
+            </div>
+          </section>
+        </div>
+        <div class="feature">
+          <section>
+            <span style="background-color: rgb(23, 136, 210);">
+              <img src="/assets/images/feature_dollar.png" alt="Money Section" />
+            </span>
+            <div>
+              <h3 class="has-text-weight-bold"> GHC 840.00 </h3>
+              <p> Total Revenue </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dates Section -->
+    <section class="statistics">
+      <section class="features-section my-6">
+        <div class="dates pt-4 color">
+          <div class="opposites px-4">
+            <p> Next Trip </p>
+            <p> 1 Seat(s) Booked </p>
+          </div>
+          <h1 class="is-size-2 py-4 has-text-centered has-text-weight-bold">
+            08 Sept 2022 
+          </h1>
+          <div id="accra" class="is-size-6 py-4 has-text-centered">
+            <p> Experience Accra </p>
+          </div>
+        </div>
+        <div class="dates py-3" style="background-color: #fff;">
+          <h5 class="has-text-weight-bold has-text-dark pl-3"> Trips Performance (COMING SOON) </h5>
+          <div class="py-5 px-4">
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Google Chrome </p>
+              <span class="has-text-success">
+                12%
+                <img src="/assets/images/up.png" alt="Positive Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Firefox </p>
+              <span class="has-text-success">
+                15%
+                <img src="/assets/images/up.png" alt="Positive Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Internet Explorer </p>
+              <span class="has-text-success">
+                18%
+                <img src="/assets/images/up.png" alt="Positive Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Safari </p>
+              <span class="has-text-danger">
+                17%
+                <img src="/assets/images/down.png" alt="Negative Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Opera Mini </p>
+              <span class="has-text-danger">
+                10%
+                <img src="/assets/images/down.png" alt="Negative Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Mobile & Tablet </p>
+              <span class="has-text-success">
+                14%
+                <img src="/assets/images/up.png" alt="Positive Sign" />
+              </span>
+            </div>
+            <div class="opposites pb-3 border-bottom mt-4">
+              <p class="is-size-6"> Others </p>
+              <span class="has-text-success">
+                5%
+                <img src="/assets/images/up.png" alt="Positive Sign" />
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="dates">
+          <div class="month">      
+            <ul>
+              <li class="prev">&#10094;</li>
+              <li class="next">&#10095;</li>
+              <li>
+                July<br>
+                <span style="font-size:18px">2022</span>
+              </li>
+            </ul>
+          </div>
+          
+          <ul class="weekdays">
+            <li>Mo</li>
+            <li>Tu</li>
+            <li>We</li>
+            <li>Th</li>
+            <li>Fr</li>
+            <li>Sa</li>
+            <li>Su</li>
+          </ul>
+          
+          <ul class="days">  
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span class="active">10</span></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- Bookings and Locations -->
+    <section class="statistics">
+      <div class="features-section">
+        <div class="bookings" style=" background-color: #fff;">
+          <h5 class="has-text-weight-bold has-text-dark pl-3 py-3"> Recent Bookings </h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th><abbr title="Position"> # </abbr></th>
+                <th><abbr title="Played"> Trip Name </abbr></th>
+                <th><abbr title="Won"> Trip Start Date </abbr></th>
+                <th><abbr title="Drawn"> User Name </abbr></th>
+                <th><abbr title="Lost"> Number of Seats </abbr></th>
+              </tr>
+            </thead>
+            <tbody style="background-color: #e7e7e7;">
+              <tr>
+                <td> 1 </td>
+                <td> Experience Accra </td>
+                <td> 08 Sept 2022 </td>
+                <td> Kweku Acquaye </td>
+                <td> 1 </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="locations">
+          <h5 class="has-text-weight-bold has-text-dark pb-3"> Trip Locations </h5>
+          <div class="control">
+            <textarea class="textarea is-hovered" rows="10"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer pb-6">
+      <p class="has-text-centered"> CopyRight &copy; Design Adapted from 2015 Modern | All Rights Reserved | Design by <strong> W3Layouts </strong> </p>
+    </footer>
+  </div>  
+</body>
+</html>

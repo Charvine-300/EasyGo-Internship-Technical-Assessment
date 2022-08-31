@@ -16,13 +16,9 @@
 
 
 /*==========  ID Rules ==========*/
-#mobile, #desktop {
+#mobile {
   text-align: center;
   color: #ffa500;
-}
-
-#desktop {
-  display: none;
 }
 
 #customized-menu {
@@ -34,23 +30,6 @@
 
 #customized-menu span {
   background-color: #fff;
-}
-
-#admin-block {
-  width: fit-content;
-  height: fit-content; 
-}
-
-#navbar-wrapper {
-  width: 100%;
-  height: 100%;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 200;
-  padding: 10px 0px;
-  background-color: #fff;
-  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
 }
 
 #links {
@@ -117,6 +96,23 @@
 
 
 /*==========  Class Rules ==========*/
+.admin-block {
+  width: fit-content;
+  height: fit-content; 
+}
+
+.navbar-wrapper {
+  width: 100%;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  padding: 10px 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgb(0 0 0 / 10%);
+}
+
 .question {
   color: #ffa500;
   font-weight: 500;
@@ -292,7 +288,7 @@
 }
 
 .border-top {
-  border-top: 1px solid rgb(57, 57, 57);
+  border-top: 1px solid #eaeaea;
   padding: 20px 0px;
 }
 
@@ -408,10 +404,6 @@ button:hover, .is-right:hover {
 
   #mobile {
     display: none;
-  }
-
-  #desktop {
-    display: block;
   }
 
   .company-info img {
