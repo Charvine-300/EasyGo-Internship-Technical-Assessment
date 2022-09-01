@@ -40,3 +40,12 @@ NB: For the meet the team section, kindly use your own image for both sections;
 # Font
 - Roboto
 
+#charts
+Purple - #852585
+Blue - #0993C5
+Red - #D71A1A
+Yellow - #B7B739
+
+
+#EasyGo Technical Assessment Solution
+This is the repository containing the solution to 

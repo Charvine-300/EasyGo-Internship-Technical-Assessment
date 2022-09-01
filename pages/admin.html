@@ -34,6 +34,35 @@
             </div>
           </div>
         </div>
+
+        <div class="navbar-menu" id="mobile-menu">
+          <div class="navbar-start">
+            <div class="menu-bar-item">
+              <a href="./admin.html">
+                <img src="../assets/images/desktop_dash.png" alt="Dashboard">
+                <p> Dashboard </p>
+              </a>
+            </div>
+            <div class="menu-bar-item">
+              <a href="./admin.html">
+                <img src="../assets/images/desktop_trips.png" alt="Trips">
+                <p> Trips </p>
+              </a>
+            </div>
+            <div class="menu-bar-item">
+              <a href="./admin.html">
+                <img src="../assets/images/desktop_finances.png" alt="Finances">
+                <p> Finances </p>
+              </a>
+            </div>
+            <div class="menu-bar-item">
+              <a href="./admin.html">
+                <img src="../assets/images/desktop_email.png" alt="Notifications">
+                <p> Notifications </p>
+              </a>
+            </div>
+          </div>
+        </div>
         
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
@@ -42,7 +71,11 @@
                 <input id="name" type="text" class="input" placeholder="Search..." />
               </div>
             </div>
-            <a href="./pages/admin.html" class="admin-block">
+            <div id="messaging">
+              <span class="has-background-danger"> 4 </span>
+              <img src="/assets/images/feature_chat.png" alt="Messages" width="21" height="21" />
+            </div>
+            <a href="./pages/admin.html" class="admin-block ml-5">
               <img src="../assets/images/account_image.png" alt="Admin Account" width="50" height="50">
             </a>
           </div>
@@ -50,9 +83,36 @@
       </nav>
     </div>
 
+    <!-- Menu Bar for Desktop and Tablet Views -->
+    <div class="menu-bar pt-6 pl-3">
+      <div class="menu-bar-item">
+        <a href="./admin.html">
+          <img src="../assets/images/desktop_dash.png" alt="Dashboard">
+          <p> Dashboard </p>
+        </a>
+      </div>
+      <div class="menu-bar-item">
+        <a href="./admin.html">
+          <img src="../assets/images/desktop_trips.png" alt="Trips">
+          <p> Trips </p>
+        </a>
+      </div>
+      <div class="menu-bar-item">
+        <a href="./admin.html">
+          <img src="../assets/images/desktop_finances.png" alt="Finances">
+          <p> Finances </p>
+        </a>
+      </div>
+      <div class="menu-bar-item">
+        <a href="./admin.html">
+          <img src="../assets/images/desktop_email.png" alt="Notifications">
+          <p> Notifications </p>
+        </a>
+      </div>
+    </div>
     <!-- Statistics Section -->
-    <section class="statistics">
-      <h4 class="has-text-weight-bold is-size-5 mt-6 mb-3"> All Time Statistics </h4>
+    <section class="statistics mt-6">
+      <h4 class="has-text-weight-bold is-size-5 mt-6 pt-6 mb-3"> All Time Statistics </h4>
       <div class="features-section">
         <div class="feature">
           <section>
@@ -117,7 +177,7 @@
           </div>
         </div>
         <div class="dates py-3" style="background-color: #fff;">
-          <h5 class="has-text-weight-bold has-text-dark pl-3"> Trips Performance (COMING SOON) </h5>
+          <h5 class="has-text-weight-bold has-text-dark px-3"> Trips Performance (COMING SOON) </h5>
           <div class="py-5 px-4">
             <div class="opposites pb-3 border-bottom mt-4">
               <p class="is-size-6"> Google Chrome </p>
@@ -269,5 +329,8 @@
       <p class="has-text-centered"> CopyRight &copy; Design Adapted from 2015 Modern | All Rights Reserved | Design by <strong> W3Layouts </strong> </p>
     </footer>
   </div>  
+
+  <!-- JavaScript File -->
+  <script type="module" src="/modules/admin.js"></script>
 </body>
 </html>

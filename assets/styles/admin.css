@@ -19,7 +19,7 @@
 
 /*==========  ID Rules ==========*/
 #admin {
-    height: fit-content;
+    height: fit-content !important;
 }
 
 #admin-logo {
@@ -60,7 +60,41 @@
     background-color: #fff;
 }
 
+#messaging {
+    width: 50px;
+    height: 41px;
+    position: relative;
+    border-radius: 41px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
 
+#messaging span {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 7px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+}
+
+#mobile-menu {
+    background-color: #000;
+}
+
+#mobile-menu .menu-bar-item {
+    padding: 10px 0px;
+}
+
+#mobile-menu p {
+    color: #fff;
+    display: inline;
+    margin-inline-start: 5px;
+}
 
 
 
@@ -212,17 +246,29 @@
     color: white !important
 }
 
+.menu-bar {
+    display: none;
+}
+
 
 
 /*==========  Element Rules  ==========*/
-body {
-    background-color: #F2F3F8;
-}
-
 table, textarea {
     width: 100%;
 }
 
+thead tr th {
+    padding: 0.5rem !important;
+    font-size: 12px !important;
+}
+
+html {
+    background-color: #ebebeb !important;
+}
+
+footer {
+    background-color: #fff !important;
+}
 /*==========  Animations  ==========*/
 
 
@@ -266,6 +312,51 @@ table, textarea {
         width: 30%;
     }
 
+    .statistics {
+        width: 80%;
+        float: right;
+        margin-right: 1%;
+    }
+
+    .footer {
+        float: right;
+        width: 83%;
+        margin-right: 0%;
+    }
+
+    .navbar-wrapper {
+        height: fit-content !important;
+        position: fixed !important;
+    }
+
+    .menu-bar {
+        display: block;
+        width: 17%;
+        height: 100%;
+        float: left;
+        position: fixed;
+        min-height: 100vh;
+        top: 70px;
+        background-color: #000;
+    }
+
+    .menu-bar-item {
+        padding: 10px 0px;
+    }
+
+    .menu-bar p {
+        color: #fff;
+        display: inline;
+        margin-inline-start: 5px;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    thead tr th {
+        font-size: 16px !important;
+    }
 }
 
 @media screen and (max-width:720px) {

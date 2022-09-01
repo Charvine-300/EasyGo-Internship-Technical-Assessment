@@ -94,7 +94,6 @@
 }
 
 
-
 /*==========  Class Rules ==========*/
 .admin-block {
   width: fit-content;
@@ -305,6 +304,20 @@
   padding: 0 10px;
 }
 
+.navbar-start a {
+  padding: 0.5rem !important;
+  text-align: center;
+}
+
+.is-active {
+  width: 100%;
+  position: absolute;
+}
+
+.is-active .admin-block {
+  padding: 0.5rem !important;
+}
+
 
 /*==========  Animations and media Queries ==========*/
 #links a:hover, .navbar-start a:hover {
@@ -312,6 +325,10 @@
   transition: 0.5s all ease-in-out;
 }
 
+#concept:hover {
+  color: rgb(200, 101, 200) !important;
+  transition: 0.5s all ease-in-out;
+}
 button:hover, .is-right:hover {
   color: #0453B5 !important;
   transition: 0.5s all ease-in-out;
