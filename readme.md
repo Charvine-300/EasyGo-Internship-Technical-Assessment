@@ -46,6 +46,10 @@ Blue - #0993C5
 Red - #D71A1A
 Yellow - #B7B739
 
+Navbar icons - #E3DDE8
+
+Customer acqusisition - #FF2BF9 and #C488F2
+
 
 #EasyGo Technical Assessment Solution
 This is the repository containing the solution to 

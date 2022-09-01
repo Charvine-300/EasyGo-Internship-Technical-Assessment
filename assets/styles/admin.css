@@ -90,7 +90,7 @@
     padding: 10px 0px;
 }
 
-#mobile-menu p {
+#mobile-menu p, #concept-menu p {
     color: #fff;
     display: inline;
     margin-inline-start: 5px;
@@ -361,13 +361,13 @@ footer {
 
 @media screen and (max-width:720px) {
     .weekdays li, .days li {width: 13.1%;}
-  }
+}
   
-  @media screen and (max-width: 420px) {
+@media screen and (max-width: 420px) {
     .weekdays li, .days li {width: 12.5%;}
     .days li .active {padding: 2px;}
-  }
+}
   
-  @media screen and (max-width: 290px) {
+@media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
-  }
+}
