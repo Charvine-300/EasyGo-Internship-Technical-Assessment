@@ -3,6 +3,11 @@
 This is the repository containing the solution to 
 the Frontend Developer Intern Technical Assessment.
 
+# Tools:
+- Bulma CSS Framework
+- Vite Frontend Tool
+- Vanilla HTML, CSS and JavaScript
+
 # Instructions:
 - The User Account image in the header of the Homepage 
 leades to the Admin Dashboard (second page).
